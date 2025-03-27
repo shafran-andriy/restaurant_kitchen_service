@@ -11,7 +11,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import Cook, Dish, DishType
 
 from .forms import (CookCreationForm,
-                    CookLicenseUpdateForm,
+                    # CookLicenseUpdateForm,
                     DishForm,
                     CookSearchForm,
                     DishSearchForm,
@@ -154,13 +154,6 @@ class CookCreateView(LoginRequiredMixin,
                        generic.CreateView):
     model = Cook
     form_class = Cook
-
-
-class CookLicenseUpdateView(LoginRequiredMixin,
-                              generic.UpdateView):
-    model = Cook
-    form_class = CookLicenseUpdateForm
-    success_url = reverse_lazy("kitchen_service:cook-list")
 
 
 class CookDeleteView(LoginRequiredMixin,
