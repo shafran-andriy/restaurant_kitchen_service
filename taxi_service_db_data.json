@@ -1,118 +1,104 @@
 [
   {
-    "model": "taxi.manufacturer",
+    "model": "kitchen_service.dish_type",
     "pk": 1,
     "fields": {
-      "name": "Lincoln",
-      "country": "USA"
+      "name": "DishType14"
     }
   },
   {
-    "model": "taxi.manufacturer",
+    "model": "kitchen_service.dish_type",
     "pk": 2,
     "fields": {
-      "name": "Ford Motor Company",
-      "country": "USA"
+      "name": "DishType13"
     }
   },
   {
-    "model": "taxi.manufacturer",
+    "model": "kitchen_service.dish_type",
     "pk": 3,
     "fields": {
-      "name": "General Motors",
-      "country": "USA"
+      "name": "DishType12"
     }
   },
   {
-    "model": "taxi.manufacturer",
+    "model": "kitchen_service.dish_type",
     "pk": 4,
     "fields": {
-      "name": "Toyota",
-      "country": "Japan"
+      "name": "DishType11"
     }
   },
   {
-    "model": "taxi.manufacturer",
+    "model": "kitchen_service.dish_type",
     "pk": 5,
     "fields": {
-      "name": "Suzuki",
-      "country": "Japan"
+      "name": "DishType10"
     }
   },
   {
-    "model": "taxi.manufacturer",
+    "model": "kitchen_service.dish_type",
     "pk": 6,
     "fields": {
-      "name": "Mitsubishi",
-      "country": "Japan"
+      "name": "DishType9"
     }
   },
   {
-    "model": "taxi.manufacturer",
+    "model": "kitchen_service.dish_type",
     "pk": 7,
     "fields": {
-      "name": "Volkswagen",
-      "country": "Germany"
+      "name": "DishType8"
     }
   },
   {
-    "model": "taxi.manufacturer",
+    "model": "kitchen_service.dish_type",
     "pk": 8,
     "fields": {
-      "name": "Daimler",
-      "country": "Germany"
+      "name": "DishType7"
     }
   },
   {
-    "model": "taxi.manufacturer",
+    "model": "kitchen_service.dish_type",
     "pk": 9,
     "fields": {
-      "name": "FCA",
-      "country": "Italy"
+      "name": "DishType6"
     }
   },
   {
-    "model": "taxi.manufacturer",
+    "model": "kitchen_service.dish_type",
     "pk": 10,
     "fields": {
-      "name": "Renault",
-      "country": "France"
+      "name": "DishType5"
     }
   },
   {
-    "model": "taxi.manufacturer",
+    "model": "kitchen_service.dish_type",
     "pk": 11,
     "fields": {
-      "name": "SAIC",
-      "country": "China"
+      "name": "DishType4"
     }
   },
   {
-    "model": "taxi.manufacturer",
+    "model": "kitchen_service.dish_type",
     "pk": 12,
     "fields": {
-      "name": "Mazda",
-      "country": "Japan"
+      "name": "DishType3"
     }
   },
   {
-    "model": "taxi.manufacturer",
+    "model": "kitchen_service.dish_type",
     "pk": 13,
     "fields": {
-      "name": "BAIC",
-      "country": "China"
+      "name": "DishType2"
     }
   },
   {
-    "model": "taxi.manufacturer",
+    "model": "kitchen_service.dish_type",
     "pk": 14,
     "fields": {
-      "name": "BMW",
-      "country": "Germany"
+      "name": "DishType1"
     }
   },
   {
-    "model": "taxi.driver",
+    "model": "kitchen_service.cook",
     "pk": 1,
     "fields": {
       "password": "pbkdf2_sha256$320000$6uM28XWOFX6ewyloJzjqmt$L+ZhofPylneoaL2iZS4sZu4ZMUNb4oIevfAdzOMn/eE=",
@@ -125,13 +111,13 @@
       "is_staff": true,
       "is_active": true,
       "date_joined": "2022-08-08T13:58:29Z",
-      "license_number": "ADM56984",
+      "years_of_experience": 4,
       "groups": [],
       "user_permissions": []
     }
   },
   {
-    "model": "taxi.driver",
+    "model": "kitchen_service.cook",
     "pk": 2,
     "fields": {
       "password": "pbkdf2_sha256$320000$73Z1Y57bcoscZ37s9rE9v0$4SEQ0TtXwJKzO5/CRdFSrTifatiPjkZ38gM2H8Kqsdg=",
@@ -144,13 +130,13 @@
       "is_staff": false,
       "is_active": true,
       "date_joined": "2022-08-08T14:17:04Z",
-      "license_number": "JOY26458",
+      "years_of_experience": 3,
       "groups": [],
       "user_permissions": []
     }
   },
   {
-    "model": "taxi.driver",
+    "model": "kitchen_service.cook",
     "pk": 3,
     "fields": {
       "password": "pbkdf2_sha256$320000$QtPol3T7x9quBj4BnbnVwW$UwT4kihkRfSvQEWEeuqVKwMgis2ikKVZfJDBcQMvOKY=",
@@ -163,13 +149,13 @@
       "is_staff": false,
       "is_active": true,
       "date_joined": "2022-08-08T14:19:09Z",
-      "license_number": "JIM26531",
+      "years_of_experience": 7,
       "groups": [],
       "user_permissions": []
     }
   },
   {
-    "model": "taxi.driver",
+    "model": "kitchen_service.cook",
     "pk": 4,
     "fields": {
       "password": "pbkdf2_sha256$320000$9yU0PLTDKlL02PedUtk2l1$LKjj8O1xGiPGEkDpjsHk87db1iLgt8dgDqECzcsivio",
@@ -182,13 +168,13 @@
       "is_staff": false,
       "is_active": true,
       "date_joined": "2022-08-08T14:19:09Z",
-      "license_number": "JON26231",
+      "years_of_experience": 6,
       "groups": [],
       "user_permissions": []
     }
   },
   {
-    "model": "taxi.driver",
+    "model": "kitchen_service.cook",
     "pk": 5,
     "fields": {
       "password": "pbkdf2_sha256$320000$9yU0PLTDKlL02PedUtk2l1$LKjj8O1xGiPGEkDpjsHk87db1iLgt8dgDqECzcsivio",
@@ -201,13 +187,13 @@
       "is_staff": false,
       "is_active": true,
       "date_joined": "2022-08-09T14:19:09Z",
-      "license_number": "DUS25131",
+      "years_of_experience": 5,
       "groups": [],
       "user_permissions": []
     }
   },
   {
-    "model": "taxi.driver",
+    "model": "kitchen_service.cook",
     "pk": 6,
     "fields": {
       "password": "pbkdf2_sha256$320000$9yU0PLTDKlL02PedUtk2l2$LKjj8O1xGiPGEkDpjsHk87db1iLgt8dgDqECzcsivio",
@@ -220,13 +206,13 @@
       "is_staff": false,
       "is_active": true,
       "date_joined": "2022-08-09T14:19:09Z",
-      "license_number": "MIK25131",
+      "years_of_experience": 5,
       "groups": [],
       "user_permissions": []
     }
   },
   {
-    "model": "taxi.driver",
+    "model": "kitchen_service.cook",
     "pk": 7,
     "fields": {
       "password": "pbkdf2_sha256$320000$9yU0PLTDKlL02PedUtk2l2$LKjj8O1xGiPGEkDpjsHk87db1iLgt8dgDqECzcsivio",
@@ -239,13 +225,13 @@
       "is_staff": false,
       "is_active": true,
       "date_joined": "2022-08-09T14:19:09Z",
-      "license_number": "LUK35131",
+      "years_of_experience": 4,
       "groups": [],
       "user_permissions": []
     }
   },
   {
-    "model": "taxi.driver",
+    "model": "kitchen_service.cook",
     "pk": 8,
     "fields": {
       "password": "pbkdf2_sha256$320000$9yU0PLTDKlL02PedUtk2l2$LKjj8O1xGiPGEkDpjsHk87db1iLgt8dgDqECzcsivio",
@@ -254,17 +240,17 @@
       "username": "nancy.wheeler",
       "first_name": "Nancy",
       "last_name": "Wheeler",
-      "email": "nancy.wheeler@taxi.com",
+      "email": "nancy.wheeler@kitchen_service.com",
       "is_staff": false,
       "is_active": true,
       "date_joined": "2022-08-09T14:19:09Z",
-      "license_number": "NAN34131",
+      "years_of_experience": 3,
       "groups": [],
       "user_permissions": []
     }
   },
   {
-    "model": "taxi.driver",
+    "model": "kitchen_service.cook",
     "pk": 9,
     "fields": {
       "password": "pbkdf2_sha256$320000$9yU0PLTDKlL02PedUtk2l2$LKjj8O1xGiPGEkDpjsHk87db1iLgt8dgDqECzcsivio",
@@ -273,17 +259,17 @@
       "username": "martin.brenner",
       "first_name": "Martin",
       "last_name": "Brenner",
-      "email": "martin.brenner@taxi.com",
+      "email": "martin.brenner@kitchen_service.com",
       "is_staff": false,
       "is_active": true,
       "date_joined": "2022-08-09T14:19:09Z",
-      "license_number": "MAR34231",
+      "years_of_experience": 12,
       "groups": [],
       "user_permissions": []
     }
   },
   {
-    "model": "taxi.driver",
+    "model": "kitchen_service.cook",
     "pk": 10,
     "fields": {
       "password": "pbkdf2_sha256$320000$9yU0PLTDKlL02PedUtk2l2$LKjj8O1xGiPGEkDpjsHk87db1iLgt8dgDqECzcsivio",
@@ -292,17 +278,17 @@
       "username": "billy.hargrove",
       "first_name": "Billy",
       "last_name": "Hargrove",
-      "email": "billy.hargrove@taxi.com",
+      "email": "billy.hargrove@kitchen_service.com",
       "is_staff": false,
       "is_active": true,
       "date_joined": "2022-08-09T14:19:09Z",
-      "license_number": "BIL39231",
+      "years_of_experience": 2,
       "groups": [],
       "user_permissions": []
     }
   },
     {
-    "model": "taxi.driver",
+    "model": "kitchen_service.cook",
     "pk": 11,
     "fields": {
       "password": "pbkdf2_sha256$320000$9yU0PLTDKlL02PedUtk2l2$LKjj8O1xGiPGEkDpjsHk87db1iLgt8dgDqECzcsivio",
@@ -311,45 +297,45 @@
       "username": "bob.newby",
       "first_name": "Bob",
       "last_name": "Newby",
-      "email": "bob.newby@taxi.com",
+      "email": "bob.newby@kitchen_service.com",
       "is_staff": false,
       "is_active": true,
       "date_joined": "2022-08-09T14:19:09Z",
-      "license_number": "BOB09631",
+      "years_of_experience": 1,
       "groups": [],
       "user_permissions": []
     }
   },
   {
-    "model": "taxi.car",
+    "model": "kitchen_service.dish",
     "pk": 1,
     "fields": {
-      "model": "Lincoln Continental",
-      "manufacturer": 1,
-      "drivers": [
+      "name": "Soup with mushrooms",
+      "dish_type": 1,
+      "cooks": [
         3
       ]
     }
   },
   {
-    "model": "taxi.car",
+    "model": "kitchen_service.dish",
     "pk": 2,
     "fields": {
-      "model": "Toyota Yaris",
-      "manufacturer": 4,
-      "drivers": [
+      "name": "Shashlyk",
+      "dish_type": 4,
+      "cooks": [
         2,
         3
       ]
     }
   },
   {
-    "model": "taxi.car",
+    "model": "kitchen_service.dish",
     "pk": 3,
     "fields": {
-      "model": "Suzuki Vitara",
-      "manufacturer": 5,
-      "drivers": [
+      "name": "Salo",
+      "dish_type": 5,
+      "cooks": [
         1,
         2,
         5
@@ -357,145 +343,145 @@
     }
   },
   {
-    "model": "taxi.car",
+    "model": "kitchen_service.dish",
     "pk": 4,
     "fields": {
-      "model": "Mitsubishi Eclipse",
-      "manufacturer": 6,
-      "drivers": [
+      "name": "Olivie",
+      "dish_type": 6,
+      "cooks": [
         1
       ]
     }
   },
   {
-    "model": "taxi.car",
+    "model": "kitchen_service.dish",
     "pk": 5,
     "fields": {
-      "model": "Mitsubishi Lancer",
-      "manufacturer": 6,
-      "drivers": [
+      "name": "Mlyntsi",
+      "dish_type": 6,
+      "cooks": [
         11
       ]
     }
   },
   {
-    "model": "taxi.car",
+    "model": "kitchen_service.dish",
     "pk": 6,
     "fields": {
-      "model": "Ford Focus",
-      "manufacturer": 2,
-      "drivers": [
+      "name": "Bohrach",
+      "dish_type": 2,
+      "cooks": [
         4
       ]
     }
   },
   {
-    "model": "taxi.car",
+    "model": "kitchen_service.dish",
     "pk": 7,
     "fields": {
-      "model": "Cadillac Escalade",
-      "manufacturer": 3,
-      "drivers": [
+      "name": "Syrnyky",
+      "dish_type": 3,
+      "cooks": [
         5
       ]
     }
   },
   {
-    "model": "taxi.car",
+    "model": "kitchen_service.dish",
     "pk": 8,
     "fields": {
-      "model": "Arcfox Alpha-S",
-      "manufacturer": 13,
-      "drivers": [
+      "name": "Pelmeny",
+      "dish_type": 13,
+      "cooks": [
       ]
     }
   },
   {
-    "model": "taxi.car",
+    "model": "kitchen_service.dish",
     "pk": 9,
     "fields": {
-      "model": "Beijing EX5",
-      "manufacturer": 13,
-      "drivers": [
+      "name": "Holubtsi",
+      "dish_type": 13,
+      "cooks": [
         9
       ]
     }
   },
   {
-    "model": "taxi.car",
+    "model": "kitchen_service.dish",
     "pk": 10,
     "fields": {
-      "model": "MG 5 II",
-      "manufacturer": 11,
-      "drivers": [
+      "name": "MG 5 II",
+      "dish_type": 11,
+      "cooks": [
         8
       ]
     }
   },
   {
-    "model": "taxi.car",
+    "model": "kitchen_service.dish",
     "pk": 11,
     "fields": {
-      "model": "Rising Auto ER6",
-      "manufacturer": 11,
-      "drivers": [
+      "name": "Pizza",
+      "dish_type": 11,
+      "cooks": [
         7,
         3
       ]
     }
   },
   {
-    "model": "taxi.car",
+    "model": "kitchen_service.dish",
     "pk": 12,
     "fields": {
-      "model": "SP250",
-      "manufacturer": 8,
-      "drivers": [
+      "name": "Borshch",
+      "dish_type": 8,
+      "cooks": [
         6
       ]
     }
   },
   {
-    "model": "taxi.car",
+    "model": "kitchen_service.dish",
     "pk": 13,
     "fields": {
-      "model": "Daimler Sovereign",
-      "manufacturer": 8,
-      "drivers": [
+      "name": "Karbonara",
+      "dish_type": 8,
+      "cooks": [
         11,
         7
       ]
     }
   },
   {
-    "model": "taxi.car",
+    "model": "kitchen_service.dish",
     "pk": 14,
     "fields": {
-      "model": "X5 M",
-      "manufacturer": 14,
-      "drivers": [
+      "name": "Tomato soup",
+      "dish_type": 14,
+      "cooks": [
         10
       ]
     }
   },
   {
-    "model": "taxi.car",
+    "model": "kitchen_service.dish",
     "pk": 15,
     "fields": {
-      "model": "Floride",
-      "manufacturer": 10,
-      "drivers": [
+      "name": "Varenyky",
+      "dish_type": 10,
+      "cooks": [
         9
       ]
     }
   },
   {
-    "model": "taxi.car",
+    "model": "kitchen_service.dish",
     "pk": 16,
     "fields": {
-      "model": "MX-30",
-      "manufacturer": 12,
-      "drivers": [
+      "name": "Napoleon",
+      "dish_type": 12,
+      "cooks": [
         4
       ]
     }
