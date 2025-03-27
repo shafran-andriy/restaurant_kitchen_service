@@ -73,7 +73,7 @@ class DishTypeUpdateView(LoginRequiredMixin, generic.UpdateView):
     success_url = reverse_lazy("kitchen_service:dish_type-list")
 
 
-class ManufacturerDeleteView(LoginRequiredMixin, generic.DeleteView):
+class DishTypeDeleteView(LoginRequiredMixin, generic.DeleteView):
     model = DishType
     success_url = reverse_lazy("kitchen_service:dish_type-list")
 
@@ -163,7 +163,7 @@ class CookDeleteView(LoginRequiredMixin,
 
 
 @login_required
-def toggle_assign_to_car(request, pk):
+def toggle_assign_to_dish(request, pk):
     cook = Cook.objects.get(id=request.user.id)
     if (
         Dish.objects.get(id=pk) in cook.dishes.all()
