@@ -28,7 +28,7 @@ class CookAdmin(UserAdmin):
 @admin.register(Dish)
 class DishAdmin(admin.ModelAdmin):
     search_fields = ("name",)
-    list_filter = ("dish_type",)
+    list_filter = ("dishType",)
 
 
 admin.site.register(DishType)
