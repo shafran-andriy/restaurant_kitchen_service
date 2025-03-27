@@ -1,97 +1,97 @@
 [
   {
-    "model": "kitchen_service.dish_type",
+    "model": "kitchen_service.dishtype",
     "pk": 1,
     "fields": {
       "name": "DishType14"
     }
   },
   {
-    "model": "kitchen_service.dish_type",
+    "model": "kitchen_service.dishtype",
     "pk": 2,
     "fields": {
       "name": "DishType13"
     }
   },
   {
-    "model": "kitchen_service.dish_type",
+    "model": "kitchen_service.dishtype",
     "pk": 3,
     "fields": {
       "name": "DishType12"
     }
   },
   {
-    "model": "kitchen_service.dish_type",
+    "model": "kitchen_service.dishtype",
     "pk": 4,
     "fields": {
       "name": "DishType11"
     }
   },
   {
-    "model": "kitchen_service.dish_type",
+    "model": "kitchen_service.dishtype",
     "pk": 5,
     "fields": {
       "name": "DishType10"
     }
   },
   {
-    "model": "kitchen_service.dish_type",
+    "model": "kitchen_service.dishtype",
     "pk": 6,
     "fields": {
       "name": "DishType9"
     }
   },
   {
-    "model": "kitchen_service.dish_type",
+    "model": "kitchen_service.dishtype",
     "pk": 7,
     "fields": {
       "name": "DishType8"
     }
   },
   {
-    "model": "kitchen_service.dish_type",
+    "model": "kitchen_service.dishtype",
     "pk": 8,
     "fields": {
       "name": "DishType7"
     }
   },
   {
-    "model": "kitchen_service.dish_type",
+    "model": "kitchen_service.dishtype",
     "pk": 9,
     "fields": {
       "name": "DishType6"
     }
   },
   {
-    "model": "kitchen_service.dish_type",
+    "model": "kitchen_service.dishtype",
     "pk": 10,
     "fields": {
       "name": "DishType5"
     }
   },
   {
-    "model": "kitchen_service.dish_type",
+    "model": "kitchen_service.dishtype",
     "pk": 11,
     "fields": {
       "name": "DishType4"
     }
   },
   {
-    "model": "kitchen_service.dish_type",
+    "model": "kitchen_service.dishtype",
     "pk": 12,
     "fields": {
       "name": "DishType3"
     }
   },
   {
-    "model": "kitchen_service.dish_type",
+    "model": "kitchen_service.dishtype",
     "pk": 13,
     "fields": {
       "name": "DishType2"
     }
   },
   {
-    "model": "kitchen_service.dish_type",
+    "model": "kitchen_service.dishtype",
     "pk": 14,
     "fields": {
       "name": "DishType1"
@@ -311,6 +311,7 @@
     "pk": 1,
     "fields": {
       "name": "Soup with mushrooms",
+      "price": 110.21,
       "dish_type": 1,
       "cooks": [
         3
@@ -322,6 +323,7 @@
     "pk": 2,
     "fields": {
       "name": "Shashlyk",
+      "price": 210.41,
       "dish_type": 4,
       "cooks": [
         2,
@@ -334,6 +336,7 @@
     "pk": 3,
     "fields": {
       "name": "Salo",
+      "price": 105.41,
       "dish_type": 5,
       "cooks": [
         1,
@@ -347,6 +350,7 @@
     "pk": 4,
     "fields": {
       "name": "Olivie",
+      "price": 18.41,
       "dish_type": 6,
       "cooks": [
         1
@@ -358,6 +362,7 @@
     "pk": 5,
     "fields": {
       "name": "Mlyntsi",
+      "price": 13.71,
       "dish_type": 6,
       "cooks": [
         11
@@ -369,6 +374,7 @@
     "pk": 6,
     "fields": {
       "name": "Bohrach",
+      "price": 20.51,
       "dish_type": 2,
       "cooks": [
         4
@@ -380,6 +386,7 @@
     "pk": 7,
     "fields": {
       "name": "Syrnyky",
+      "price": 170.71,
       "dish_type": 3,
       "cooks": [
         5
@@ -391,6 +398,7 @@
     "pk": 8,
     "fields": {
       "name": "Pelmeny",
+      "price": 19.77,
       "dish_type": 13,
       "cooks": [
       ]
@@ -401,6 +409,7 @@
     "pk": 9,
     "fields": {
       "name": "Holubtsi",
+      "price": 105.71,
       "dish_type": 13,
       "cooks": [
         9
@@ -411,7 +420,8 @@
     "model": "kitchen_service.dish",
     "pk": 10,
     "fields": {
-      "name": "MG 5 II",
+      "name": "Burger",
+      "price": 310.71,
       "dish_type": 11,
       "cooks": [
         8
@@ -423,6 +433,7 @@
     "pk": 11,
     "fields": {
       "name": "Pizza",
+      "price": 100.71,
       "dish_type": 11,
       "cooks": [
         7,
@@ -435,6 +446,7 @@
     "pk": 12,
     "fields": {
       "name": "Borshch",
+      "price": 160.71,
       "dish_type": 8,
       "cooks": [
         6
@@ -446,6 +458,7 @@
     "pk": 13,
     "fields": {
       "name": "Karbonara",
+      "price": 108.41,
       "dish_type": 8,
       "cooks": [
         11,
@@ -458,6 +471,7 @@
     "pk": 14,
     "fields": {
       "name": "Tomato soup",
+      "price": 410.71,
       "dish_type": 14,
       "cooks": [
         10
@@ -469,6 +483,7 @@
     "pk": 15,
     "fields": {
       "name": "Varenyky",
+      "price": 120.71,
       "dish_type": 10,
       "cooks": [
         9
@@ -480,6 +495,7 @@
     "pk": 16,
     "fields": {
       "name": "Napoleon",
+      "price": 10.71,
       "dish_type": 12,
       "cooks": [
         4
