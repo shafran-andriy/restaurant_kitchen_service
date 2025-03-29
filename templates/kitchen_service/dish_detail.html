@@ -11,20 +11,17 @@
       Update
     </a>
   </h1>
-  <p>Dish Type: ({{ dish.dish_type.name }})</p>
+  <p>Dish Type: ({{ dish.name}} {{ dish_type.name }})</p>
   <h1>
     Cooks
-
-    {% if cook in user.dishes.all %}
-      <a href="{% url 'kitchen_service:toggle-dish-assign' pk=dish.id %}" class="btn btn-danger link-to-page">
-        Delete me from this dish
-      </a>
-    {% else %}
-      <a href="{% url 'kitchen_service:toggle-dish-assign' pk=dish.id %}" class="btn btn-success link-to-page">
-        Assign me from this dish
-      </a>
-    {% endif %}
-
+    <form action="{% url 'kitchen_service:toggle-dish-assign' pk=dish.id %}" method="post" style="display: inline;">
+      {% csrf_token %}
+      {% if user in dish.cooks.all %}
+        <button type="submit" class="btn btn-danger">Delete me from this dish</button>
+      {% else %}
+        <button type="submit" class="btn btn-success">Assign me to this dish</button>
+      {% endif %}
+    </form>
   </h1>
   <hr>
   <ul>

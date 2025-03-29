@@ -3,8 +3,8 @@ from typing import Any
 from django.contrib.auth.decorators import login_required
 from django.db.models import QuerySet
 from django.http import HttpResponseRedirect
-from django.shortcuts import render
-from django.urls import reverse_lazy
+from django.shortcuts import render, get_object_or_404
+from django.urls import reverse_lazy, reverse
 from django.views import generic
 from django.contrib.auth.mixins import LoginRequiredMixin
 
@@ -165,12 +165,12 @@ class CookDeleteView(LoginRequiredMixin,
 
 @login_required
 def toggle_assign_to_dish(request, pk):
-    cook = Cook.objects.get(id=request.user.id)
-    if (
-        Dish.objects.get(id=pk) in cook.cooks.all()
-    ):
-        cook.cooks.remove(pk)
+    dish = get_object_or_404(Dish, id=pk)
+    cook = request.user
+
+    if cook in dish.cooks.all():
+        dish.cooks.remove(cook)
     else:
-        cook.cooks.add(pk)
-    return HttpResponseRedirect(
-        reverse_lazy("kitchen_service:dish-detail", args=[pk]))
+        dish.cooks.add(cook)
+
+    return HttpResponseRedirect(reverse("kitchen_service:dish-detail", args=[pk]))
