@@ -37,7 +37,7 @@ class CookSearchForm(forms.Form):
 
 
 class DishSearchForm(forms.Form):
-    model = forms.CharField(
+    name = forms.CharField(
         max_length=255,
         required=False,
         label="",

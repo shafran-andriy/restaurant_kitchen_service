@@ -75,6 +75,7 @@ class DishTypeUpdateView(LoginRequiredMixin, generic.UpdateView):
 
 class DishTypeDeleteView(LoginRequiredMixin, generic.DeleteView):
     model = DishType
+    template_name = "kitchen_service/dish_type_confirm_delete.html"
     success_url = reverse_lazy("kitchen_service:dish_type-list")
 
 
@@ -93,7 +94,7 @@ class DishListView(LoginRequiredMixin, generic.ListView):
         return context
 
     def get_queryset(self):
-        queryset = Dish.objects.select_related("dishType")
+        queryset = Dish.objects.select_related("dish_type")
         form = DishSearchForm(self.request.GET)
         if form.is_valid():
             return queryset.filter(name__icontains=form.cleaned_data["name"])
@@ -147,28 +148,28 @@ class CookListView(LoginRequiredMixin, generic.ListView):
 class CookDetailView(LoginRequiredMixin,
                        generic.DetailView):
     model = Cook
-    queryset = Cook.objects.all().prefetch_related("cooks__dishType")
+    queryset = Cook.objects.all().prefetch_related("cooks__dish_type")
 
 
 class CookCreateView(LoginRequiredMixin,
                        generic.CreateView):
     model = Cook
-    form_class = Cook
+    form_class = CookCreationForm
 
 
 class CookDeleteView(LoginRequiredMixin,
                        generic.DeleteView):
     model = Cook
-    success_url = reverse_lazy("")
+    success_url = reverse_lazy("kitchen_service:cook-list")
 
 
 @login_required
 def toggle_assign_to_dish(request, pk):
     cook = Cook.objects.get(id=request.user.id)
     if (
-        Dish.objects.get(id=pk) in cook.dishes.all()
+        Dish.objects.get(id=pk) in cook.cooks.all()
     ):
-        cook.dishes.remove(pk)
+        cook.cooks.remove(pk)
     else:
-        cook.dishes.add(pk)
+        cook.cooks.add(pk)
     return HttpResponseRedirect(reverse_lazy("kitchen_service:dish-detail", args=[pk]))
