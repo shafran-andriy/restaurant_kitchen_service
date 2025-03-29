@@ -11,7 +11,7 @@ class FormsTests(TestCase):
             "password2": "user12test",
             "first_name": "Test first",
             "last_name": "Test last",
-            "years_of_experience": "10",
+            "years_of_experience": 10,
         }
         form = CookCreationForm(data=form_data)
         self.assertTrue(form.is_valid())
