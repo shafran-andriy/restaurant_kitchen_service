@@ -8,7 +8,7 @@ $ # Get the code
 
 $ git clone https://github.com/shafran-andriy/restaurant_kitchen_service.git
 
-$ cd django-material-kit
+$ cd restaurant_kitchen_service
 
 👉 Set Up for Unix, MacOS
 
