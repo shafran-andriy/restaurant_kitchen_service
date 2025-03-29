@@ -146,19 +146,19 @@ class CookListView(LoginRequiredMixin, generic.ListView):
 
 
 class CookDetailView(LoginRequiredMixin,
-                       generic.DetailView):
+                     generic.DetailView):
     model = Cook
     queryset = Cook.objects.all().prefetch_related("cooks__dish_type")
 
 
 class CookCreateView(LoginRequiredMixin,
-                       generic.CreateView):
+                     generic.CreateView):
     model = Cook
     form_class = CookCreationForm
 
 
 class CookDeleteView(LoginRequiredMixin,
-                       generic.DeleteView):
+                     generic.DeleteView):
     model = Cook
     success_url = reverse_lazy("kitchen_service:cook-list")
 
@@ -172,4 +172,5 @@ def toggle_assign_to_dish(request, pk):
         cook.cooks.remove(pk)
     else:
         cook.cooks.add(pk)
-    return HttpResponseRedirect(reverse_lazy("kitchen_service:dish-detail", args=[pk]))
+    return HttpResponseRedirect(
+        reverse_lazy("kitchen_service:dish-detail", args=[pk]))
