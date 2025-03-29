@@ -6,7 +6,7 @@ Download the code
 
 $ # Get the code
 
-$ git clone https://github.com/app-generator/django-material-kit.git
+$ git clone https://github.com/shafran-andriy/restaurant_kitchen_service.git
 
 $ cd django-material-kit
 
