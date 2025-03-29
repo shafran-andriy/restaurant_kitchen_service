@@ -21,6 +21,5 @@ from django.urls import path, include
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("kitchen_service.urls", namespace="kitchen_service")),
-    #path("accounts/", include("django.contrib.auth.urls")),
-    path("accounts/", include("authentication.urls")), # Auth routes - login / register
+    path("accounts/", include("authentication.urls")),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

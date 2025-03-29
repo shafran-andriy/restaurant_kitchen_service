@@ -173,4 +173,5 @@ def toggle_assign_to_dish(request, pk):
     else:
         dish.cooks.add(cook)
 
-    return HttpResponseRedirect(reverse("kitchen_service:dish-detail", args=[pk]))
+    return HttpResponseRedirect(reverse(
+        "kitchen_service:dish-detail", args=[pk]))
