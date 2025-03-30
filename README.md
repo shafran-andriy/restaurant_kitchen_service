@@ -1,5 +1,10 @@
 "# restaurant_kitchen_service" 
 
+DB structure:
+
+![image](https://github.com/user-attachments/assets/634a70ad-0304-485a-9f5d-7ddd49f5162e)
+
+
 ✨ How to use it
 
 Download the code
