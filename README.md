@@ -1,52 +1,45 @@
-"# restaurant_kitchen_service" 
+# restaurant_kitchen_service
 
-DB structure:
+![DB Structure](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/docs/models.svg)
 
-![image](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/docs/models.svg)
+## 📌 Overview  
+**restaurant_kitchen_service** is a web application designed to manage restaurant kitchen operations, including handling cooks, dishes, and dish types.  
 
-Pages images:
+## 📸 Screenshots  
 
-1. Login page:
+### 🔑 Login Page  
+![Login Page](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Login-page.png)
 
-![image](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Login-page.png)
+### 🏠 Home Page  
+![Home Page](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Home-page.png)
 
-2. Home page
+### 👤 Username Page  
+![Username Page](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Username-page.png)
 
-![image](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Home-page.png)
+### 👨‍🍳 All Cooks Page  
+![All Cooks Page](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/All_cooks-page.png)
 
-3. Username page
+### ➕ Create Cook Page  
+![Create Cook Page](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Create_cook-page.png)
 
-![image](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Username-page.png)
+### 🍽️ All Dishes Page  
+![All Dishes Page](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Dish_list-page.png)
 
-4. All cooks page
+### ➕ Create Dish Page  
+![Create Dish Page](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Create_dish-page.png)
 
-![image](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/All_cooks-page.png)
+### 🍲 All Dish Types Page  
+![All Dish Types Page](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Dish_type-page.png)
 
-5. Create cook page:
+---
 
-![image](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Create_cook-page.png)
+## 🚀 Installation & Setup  
 
-6. All dishes page:
+### 📥 Clone the Repository  
+```sh  
+git clone https://github.com/shafran-andriy/restaurant_kitchen_service.git  
+cd restaurant_kitchen_service  
 
-![image](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Dish_list-page.png)
-
-7. Create dish page
-
-![image](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Create_dish-page.png)
-
-8. All dish types page:
-
-![image](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Dish_type-page.png)
-   
-✨ How to use it
-
-Download the code
-
-$ # Get the code
-
-$ git clone https://github.com/shafran-andriy/restaurant_kitchen_service.git
-
-$ cd restaurant_kitchen_service
 
 👉 Set Up for Unix, MacOS
 
