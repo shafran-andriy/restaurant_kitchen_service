@@ -4,7 +4,13 @@ DB structure:
 
 ![image](https://github.com/user-attachments/assets/634a70ad-0304-485a-9f5d-7ddd49f5162e)
 
+Pages images:
 
+1. Login page:
+
+![image](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Login-page.png)
+
+2. 
 ✨ How to use it
 
 Download the code
