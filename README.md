@@ -2,7 +2,7 @@
 
 DB structure:
 
-![image](https://github.com/user-attachments/assets/634a70ad-0304-485a-9f5d-7ddd49f5162e)
+![image]([https://github.com/user-attachments/assets/634a70ad-0304-485a-9f5d-7ddd49f5162e](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/docs/models.svg))
 
 Pages images:
 
