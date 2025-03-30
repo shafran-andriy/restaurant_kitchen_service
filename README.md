@@ -10,7 +10,15 @@ Pages images:
 
 ![image](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Login-page.png)
 
-2. 
+2. Home page
+
+![image](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Home-page.png)
+
+3. Username page
+
+![image](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Username-page.png)
+
+4. 
 ✨ How to use it
 
 Download the code
