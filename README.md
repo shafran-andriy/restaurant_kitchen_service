@@ -18,7 +18,26 @@ Pages images:
 
 ![image](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Username-page.png)
 
-4. 
+4. All cooks page
+
+![image](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/All_cooks-page.png)
+
+5. Create cook page:
+
+![image](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Create_cook-page.png)
+
+6. All dishes page:
+
+![image](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Dish_list-page.png)
+
+7. Create dish page
+
+![image](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Create_dish-page.png)
+
+8. All dish types page:
+
+![image](https://github.com/shafran-andriy/restaurant_kitchen_service/blob/main/photos_of_the_site/Dish_type-page.png)
+   
 ✨ How to use it
 
 Download the code
