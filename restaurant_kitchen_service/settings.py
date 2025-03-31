@@ -25,7 +25,8 @@ load_dotenv()
 SECRET_KEY = os.getenv('SECRET_KEY', 'default-secret-key-for-dev')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+#DEBUG = True
+DEBUG = os.environ.get("DJANGO_DEBUG", "") != "False"
 
 # Assets Management
 ASSETS_ROOT = "/static/assets"
