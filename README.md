@@ -33,6 +33,16 @@
 
 ---
 
+## 🚀 Deployment to deployed site via render.com
+
+![restaurant-kitchen-service](https://restaurant-kitchen-service-lp9w.onrender.com/)
+
+Test user:
+
+login: user
+
+password: user12345
+
 ## 🚀 Installation & Setup  
 
 ### 📥 Clone the Repository  
