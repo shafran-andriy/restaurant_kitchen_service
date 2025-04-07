@@ -33,7 +33,9 @@
 
 ---
 
-## 🚀 Deployment to deployed site via render.com
+## 🚀 Deployment 
+
+Link to deployed site via render.com:
 
 ![restaurant-kitchen-service](https://restaurant-kitchen-service-lp9w.onrender.com/)
 
