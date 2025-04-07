@@ -76,19 +76,22 @@
               </li>
 
 
+
+
               {% if request.user.is_authenticated %}
-                <li class="nav-item ms-lg-auto">
+                <li class="nav-item ms-lg-auto d-flex align-items-center">
                   <form method="post" action="{% url 'logout' %}">
                     {% csrf_token %}
-                    <a class="nav-link nav-link-icon me-2"
-                       href="{% url 'logout' %}">
+                    <button type="submit" class="btn btn-link nav-link nav-link-icon me-2 p-0 m-0"
+                            style="text-decoration: none;">
                       <i class="fa fa-sign-out me-1"></i>
-                      <p class="d-inline text-sm z-index-1 font-weight-bold" data-bs-toggle="tooltip"
-                         data-bs-placement="bottom" title="Sign OUT">Logout</p>
-                    </a>
+                      <span class="d-inline text-sm z-index-1 font-weight-bold" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Sign OUT">Logout</span>
+                    </button>
                   </form>
                 </li>
               {% endif %}
+
 
             </ul>
           </div>
